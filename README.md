@@ -45,13 +45,13 @@ The data model was developed to optimize analysis performance and clarity. The c
 
 This page serves as the executive control panel for LAJEADO Dental Clinic . It showcases the most important KPIs, such as Total Revenue, Number of Treated Patients, Volume of General Procedures, and Orthodontic Procedures. Furthermore, it provides a detailed overview of Revenue Trends of general and orthodontics, and Revenue Contribution by Specialty, offering an immediate understanding of the clinic's overall performance and its most financially significant areas.
 
-<img width="1426" height="800" alt="page1" src="https://github.com/user-attachments/assets/72171485-c97b-437d-81c3-546b0fed0886" />
+![Page1](https://github.com/user-attachments/assets/8635954b-4bba-4268-8e76-a56b46fac8ea)
 
 ### Page 2: Patients Insights
 
 This page provides a detailed look into the clinic's patient dynamics and acquisition strategies. It highlights key metrics such as New Patients Over Time (both general and orthodontic), Initial Consultations, and the crucial Conversion Rate. Furthermore, it offers insights into the Total Orthodontic Patients and Active Ortho Patients, along with a breakdown of Acquisition Channels and the Most Performed General Procedures, enabling a deeper understanding of patient growth and service demand.
 
-<img width="1420" height="798" alt="page2" src="https://github.com/user-attachments/assets/2aabcd44-b621-408d-bad2-77f9ce973681" />
+![page2](https://github.com/user-attachments/assets/f60b8649-89cf-489c-9b64-78a5b7cbb051)
 
 ## Conclusion
 
