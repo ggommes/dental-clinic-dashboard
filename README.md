@@ -37,7 +37,7 @@ The data used in this project originates from the LAJEADO Dental Clinic MySQL da
  
 The data model was developed to optimize analysis performance and clarity. The complete structure of the data model, including the relationships between the tables and views imported from MySQL, can be visualized in the diagram below:
 
-![erdoficial](https://github.com/user-attachments/assets/92935e63-8fe8-4004-b67a-ad13eb9ff025)
+<img width="1065" height="675" alt="ERD01" src="https://github.com/user-attachments/assets/f010f597-7fb0-44f5-b35d-128fd6b8f0cb" />
 
 ## Dashboard Overview
 
@@ -45,13 +45,13 @@ The data model was developed to optimize analysis performance and clarity. The c
 
 This page serves as the executive control panel for LAJEADO Dental Clinic . It showcases the most important KPIs, such as Total Revenue, Number of Treated Patients, Volume of General Procedures, and Orthodontic Procedures. Furthermore, it provides a detailed overview of Revenue Trends of general and orthodontics, and Revenue Contribution by Specialty, offering an immediate understanding of the clinic's overall performance and its most financially significant areas.
 
-![pagina 1](https://github.com/user-attachments/assets/5cb2e271-972a-4ac5-8c09-9297e4d91d94)
+<img width="1426" height="800" alt="page1" src="https://github.com/user-attachments/assets/72171485-c97b-437d-81c3-546b0fed0886" />
 
 ### Page 2: Patients Insights
 
 This page provides a detailed look into the clinic's patient dynamics and acquisition strategies. It highlights key metrics such as New Patients Over Time (both general and orthodontic), Initial Consultations, and the crucial Conversion Rate. Furthermore, it offers insights into the Total Orthodontic Patients and Active Ortho Patients, along with a breakdown of Acquisition Channels and the Most Performed General Procedures, enabling a deeper understanding of patient growth and service demand.
 
-![pagina 2](https://github.com/user-attachments/assets/496c629f-1023-44e2-9cc0-d9c7ebe3a0b9)
+<img width="1420" height="798" alt="page2" src="https://github.com/user-attachments/assets/2aabcd44-b621-408d-bad2-77f9ce973681" />
 
 ## Conclusion
 
