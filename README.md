@@ -1,61 +1,61 @@
 # Project Background
 
-This dashboard was developed for the partners of a dental clinic in Lajeado, Brazil. With the aim of solving a common challenge: the difficulty in consolidating and analyzing the vast amount of clinic performance data. Using a real-world dataset of patient appointments, procedures, revenue, and patient acquisition, this project provides a, easy-to-use interface to explore operational and financial trends, optimizing strategic decision-making and driving the clinic's growth.
+Este dashboard foi desenvolvido para os sócios de uma clínica odontológica em Lajeado, Brasil. O objetivo é resolver um desafio comum: a dificuldade em consolidar e analisar a vasta quantidade de dados de desempenho da clínica. Utilizando um conjunto de dados real de consultas, procedimentos, receita e aquisição de pacientes, este projeto oferece uma interface fácil de usar para explorar tendências operacionais e financeiras, otimizando a tomada de decisões estratégicas e impulsionando o crescimento da clínica.
 
-## Skills Showcased
+## Habilidades Demonstradas
 
-  - **Data Transformation (ETL) with Power Query**: Cleaning, shaping, and preparing raw clinic data for analysis,including handling null/blank values, and changing data types.
-  - **DAX Measures**: Creation of explicit measures for crucial insights and KPIs, such as the Conversion Rate (%) from initial consultations to treated patients and utilization of implicit measures for basic aggregations (sums, counts) present in the visuals.
-  - **Core Charts**: Use of Line Charts to track trends over time (Revenue, New Patients). Utilization of Column and Bar Charts to compare volumes (Procedures by Year, Acquisition Channels, Contribution by Specialty).
-  - **KPI Indicators & Tables:** Employment of Cards to display key metrics and important summaries (Total Revenue, Treated Patients, Conversion Rate,Executed procedures).
-  - **Dashboard Design:** Development of an intuitive and visually appealing layout, focused on clarity and ease of reading for clinic managers. Visual organization of elements to present key information in a hierarchical and coherent manner.
-  - **Interactive Reporting:** Slicers to dynamically filter data by period (e.g., year in trend charts) and other dimensions. Ability to interact with visuals for detailed information.
-  - **Buttons & Bookmarks:** To change between pages.
+  - **Transformação de Dados (ETL) com Power Query:**: Limpeza, modelagem e preparação de dados brutos da clínica para análise, incluindo o tratamento de valores nulos/em branco e a alteração de tipos de dados.
+  - **Medidas DAX**: Criação de medidas explícitas para insights e KPIs cruciais, como a Taxa de Conversão (%) de consultas iniciais para pacientes tratados, e a utilização de medidas implícitas para agregações básicas (somas, contagens) presentes nos visuais.
+  - **Gráficos Principais:**:  Uso de Gráficos de Linha para rastrear tendências ao longo do tempo (Receita, Novos Pacientes). Utilização de Gráficos de Colunas e Barras para comparar volumes (Procedimentos por Ano, Canais de Aquisição, Contribuição por Especialidade).
+  - **Indicadores e Tabelas KPI:** Emprego de Cards para exibir métricas-chave e resumos importantes (Receita Total, Pacientes Atendidos, Taxa de Conversão, Procedimentos Executados).
+  - **Design do Painel:** Desenvolvimento de um layout intuitivo e visualmente atraente, focado em clareza e facilidade de leitura para os gestores da clínica. Organização visual dos elementos para apresentar informações-chave de forma hierárquica e coerente.
+  - **Relatórios Interativos:** Segmentações de Dados (Slicers) para filtrar dinamicamente os dados por período (ex: ano em gráficos de tendência) e outras dimensões. Capacidade de interagir com os visuais para obter informações detalhadas.
+  - **Botões e Marcadores:** Para alternar entre páginas.
 
-## Data Source
+## Fonte de Dados
 
-The data used in this project originates from the LAJEADO Dental Clinic MySQL database. The most relevant tables for analysis were directly imported, in addition to four custom SQL Views created in the database to facilitate the retrieval of consolidated information and streamline the analysis process.
+TOs dados utilizados neste projeto são provenientes do banco de dados MySQL da Clínica LAJEADO. As tabelas mais relevantes para a análise foram importadas diretamente, além de quatro SQL Views personalizadas criadas no banco de dados para facilitar a recuperação de informações consolidadas e otimizar o processo de análise.
 
-- ### Imported Tables:
+- ### Tabelas Importadas:
 
-  - **clinicalajeado_initial_consultations:** Records of initial consultations.
-  - **clinicalajeado_patient_visits:** Details of patient visits to the clinic.
-  - **clinicalajeado_orthodontic_payments:** Payments related to orthodontic procedures.
-  - **clinicalajeado_orthodontic_installations:** Information about orthodontic appliance installations.
-  - **clinicalajeado_orthodontic_appointments:** Details of orthodontic appointments.
-  - **clinicalajeado_patients:** Patient registration data.
-  - **clinicalajeado_payments:** General payment records.
-  - **clinicalajeado_direct_payments:** Direct payments.
-  - **clinicalajeado_executed_procedures:** Information about executed procedures.
+  - **clinicalajeado_initial_consultations:** Registros de consultas iniciais.
+  - **clinicalajeado_patient_visits:** Detalhes das visitas de pacientes à clínica.
+  - **clinicalajeado_orthodontic_payments:** Pagamentos relacionados a procedimentos ortodonticos.
+  - **clinicalajeado_orthodontic_installations:**  Informações sobre a instalação de aparelhos ortodônticos.
+  - **clinicalajeado_orthodontic_appointments:** Detalhes de consultas ortodônticas.
+  - **clinicalajeado_patients:** Dados de registro de pacientes.
+  - **clinicalajeado_payments:** Registros de pagamentos gerais.
+  - **clinicalajeado_direct_payments:** Pagamentos diretos.
+  - **clinicalajeado_executed_procedures:**  Informações sobre procedimentos executados.
 
-- ### Custom SQL Views:
+- ### SQL Views:
 
-  - **acquisitionchannel:** For analyzing patient acquisition channels.
-  - **clinicalajeado_totalsales:** Presents the total volume of sales/services.
-  - **clinicalajeado_totalpatients:** Contains the consolidated patient count.
-  - **clinicalajeado_revenue_by_specialty:** Provides aggregated revenue by each dental specialty.
+  - **acquisitionchannel:** Para analisar os canais de aquisição de pacientes.
+  - **clinicalajeado_totalsales:** Apresenta o volume total de vendas/serviços.
+  - **clinicalajeado_totalpatients:** Contém a contagem consolidada de pacientes.
+  - **clinicalajeado_revenue_by_specialty:**  Fornece a receita agregada por cada especialidade odontológica.
  
-The data model was developed to optimize analysis performance and clarity. The complete structure of the data model, including the relationships between the tables and views imported from MySQL, can be visualized in the diagram below:
+O modelo de dados foi desenvolvido para otimizar o desempenho e a clareza da análise. A estrutura completa do modelo de dados, incluindo as relações entre as tabelas e views importadas do MySQL, pode ser visualizada no diagrama abaixo:
 
 <img width="1065" height="675" alt="ERD01" src="https://github.com/user-attachments/assets/f010f597-7fb0-44f5-b35d-128fd6b8f0cb" />
 
 ## Dashboard Overview
 
-### Page 1 Revenue & Services
+### Página 1: Receita e Serviços
 
-This page serves as the executive control panel for LAJEADO Dental Clinic . It showcases the most important KPIs, such as Total Revenue, Number of Treated Patients, Volume of General Procedures, and Orthodontic Procedures. Furthermore, it provides a detailed overview of Revenue Trends of general and orthodontics, and Revenue Contribution by Specialty, offering an immediate understanding of the clinic's overall performance and its most financially significant areas.
+Esta página serve como o painel de controle executivo para a Clínica Odontológica LAJEADO. Ela exibe os KPIs mais importantes, como Receita Total, Número de Pacientes Atendidos, Volume de Procedimentos Gerais e Procedimentos Ortodônticos. Além disso, oferece uma visão detalhada das Tendências de Receita de procedimentos gerais e ortodônticos, e da Contribuição de Receita por Especialidade, fornecendo uma compreensão imediata do desempenho geral da clínica e de suas áreas financeiramente mais significativas.
 
 ![Page1](https://github.com/user-attachments/assets/8635954b-4bba-4268-8e76-a56b46fac8ea)
 
-### Page 2: Patients Insights
+### Página 2: Insights sobre Pacientes
 
-This page provides a detailed look into the clinic's patient dynamics and acquisition strategies. It highlights key metrics such as New Patients Over Time (both general and orthodontic), Initial Consultations, and the crucial Conversion Rate. Furthermore, it offers insights into the Total Orthodontic Patients and Active Ortho Patients, along with a breakdown of Acquisition Channels and the Most Performed General Procedures, enabling a deeper understanding of patient growth and service demand.
+Esta página oferece uma visão detalhada da dinâmica e das estratégias de aquisição de pacientes da clínica. Ela destaca métricas-chave como Novos Pacientes ao Longo do Tempo (tanto gerais quanto ortodônticos), Consultas Iniciais e a crucial Taxa de Conversão. Além disso, oferece insights sobre o Total de Pacientes Ortodônticos e Pacientes Ortodônticos Ativos, juntamente com um detalhamento dos Canais de Aquisição e dos Procedimentos Gerais Mais Realizados, permitindo uma compreensão mais profunda do crescimento de pacientes e da demanda por serviços.
 
 ![page2](https://github.com/user-attachments/assets/f60b8649-89cf-489c-9b64-78a5b7cbb051)
 
-## Conclusion
+## Conclusão
 
-This dashboard demonstrates how Power BI can transform raw data from LAJEADO Dental Clinic  into a powerful tool for clinic performance analysis and management. It allows managers and teams to segment, filter, and explore data to make informed decisions about operations, patient acquisition strategies, and procedure optimization, directly contributing to the business's success and growth.
+Este painel demonstra como o Power BI pode transformar dados brutos da Clínica LAJEADO em uma poderosa ferramenta de análise e gestão do desempenho da clínica. Ele permite que gestores e equipes segmentem, filtrem e explorem dados para tomar decisões informadas sobre operações, estratégias de aquisição de pacientes e otimização de procedimentos, contribuindo diretamente para o sucesso e crescimento do negócio.
 
 
   
